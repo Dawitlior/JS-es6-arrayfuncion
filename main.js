@@ -26,12 +26,25 @@
 
 // 4.	צרו פונקציה היוצרת מערך של 10 שמות פרטיים מהכיתה, השמות מתקבלים מהמשתמש, וסדרו אותו אלפביתית.
 
-// let classStudentsName = [];
-// let studentName = document.getElementById("student_name");
-// function getArrayFromUser() {
-//   if (classStudentsName.length < 10) {
-//     classStudentsName.push(studentName.value);
-//   }
-//   studentName.value = "";
-//   console.log(classStudentsName.sort());
-// }
+let classStudentsName = [];
+let studentName = document.getElementById("student_name");
+function getArrayFromUser() {
+  if (classStudentsName.length < 10) {
+    classStudentsName.push(studentName.value);
+  }
+  studentName.value = "";
+  console.log(classStudentsName.sort());
+}
+
+// 5.	צרו פונקציה היוצרת מערך רנדומלי של 10 גילים וסדרו אותו לפי סדר יורד.
+
+let ageArray = [];
+function getRandomAgeAndCreate(){
+for(let i = 0 ; i<10 ; i++){
+    ageArray.push(Math.floor(Math.random()*(65-18)+18))
+}
+}
+console.log(ageArray);
+ageArray.sort((a,b)=> a - b);
+
+
