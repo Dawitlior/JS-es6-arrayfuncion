@@ -11,8 +11,7 @@
 // function getNumbersAndSort(numbers) {
 //   console.log(
 //     numbers.sort((a, b) => {
-//       return a - b;
-//     })
+//       return a - b;})
 //   );
 // }
 // getNumbersAndSort([20, 14, 100, 3, 12, 67, 54, 3]);
@@ -26,25 +25,33 @@
 
 // 4.	צרו פונקציה היוצרת מערך של 10 שמות פרטיים מהכיתה, השמות מתקבלים מהמשתמש, וסדרו אותו אלפביתית.
 
-let classStudentsName = [];
-let studentName = document.getElementById("student_name");
-function getArrayFromUser() {
-  if (classStudentsName.length < 10) {
-    classStudentsName.push(studentName.value);
-  }
-  studentName.value = "";
-  console.log(classStudentsName.sort());
-}
+// let classStudents = [];
+// let studentName = document.getElementById("student_name");
+// function getArrayFromUser() {
+//   if (classStudents.length < 10) {
+//     classStudents.push(studentName.value);
+//   }
+//   studentName.value = "";
+//   console.log(classStudents.sort());
+// }
 
 // 5.	צרו פונקציה היוצרת מערך רנדומלי של 10 גילים וסדרו אותו לפי סדר יורד.
 
-let ageArray = [];
-function getRandomAgeAndCreate(){
-for(let i = 0 ; i<10 ; i++){
-    ageArray.push(Math.floor(Math.random()*(65-18)+18))
-}
-}
-console.log(ageArray);
-ageArray.sort((a,b)=> a - b);
+// let ageArray = [];
+// function getRandomAgeAndCreate(){
+// for(let i = 0 ; i<10 ; i++){
+//     ageArray.push(Math.floor(Math.random()*(65-18)+18))
+// }
+// ageArray.sort((a,b)=>{return a-b})
+// console.log(ageArray);
+// }
 
+// getRandomAgeAndCreate();
 
+// 6.	צרו מחרוזת שמחזיקה את המערך החדש מתרגיל 24 ומפרידה בין האיברים במקף (-).
+
+function createStringAndKeepTheArray() {
+  let str = classStudents.join("-");
+  console.log(str);
+}
+createStringAndKeepTheArray();
