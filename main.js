@@ -45,7 +45,6 @@
 // ageArray.sort((a,b)=>{return a-b})
 // console.log(ageArray);
 // }
-
 // getRandomAgeAndCreate();
 
 // 6.	צרו מחרוזת שמחזיקה את המערך החדש מתרגיל 24 ומפרידה בין האיברים במקף (-).
@@ -55,3 +54,15 @@ function createStringAndKeepTheArray() {
   console.log(str);
 }
 createStringAndKeepTheArray();
+
+// 7.
+
+let arrayCompany = ["microsoft","apple","dell","ibm","intel","facebook","monday","at&t","sony","hwawi"];
+function arrayTechCompany() {
+  let divCompany = document.getElementById("id_div");
+  for (let i = 0; i < arrayCompany.length; i++) {
+    divCompany.innerHTML = arrayCompany[i];
+  }
+}
+
+
