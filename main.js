@@ -26,10 +26,12 @@
 
 // 4.	צרו פונקציה היוצרת מערך של 10 שמות פרטיים מהכיתה, השמות מתקבלים מהמשתמש, וסדרו אותו אלפביתית.
 
-function getArrayFromUser() {
-    let myArray = [];
-  let userValueNames = document.getElementById("my_put");
-  for (let i = 0; i > 10; i++) {
- myArray.push(userValueNames.value);
-  }
-}
+// let classStudentsName = [];
+// let studentName = document.getElementById("student_name");
+// function getArrayFromUser() {
+//   if (classStudentsName.length < 10) {
+//     classStudentsName.push(studentName.value);
+//   }
+//   studentName.value = "";
+//   console.log(classStudentsName.sort());
+// }
