@@ -49,11 +49,11 @@
 
 // 6.	צרו מחרוזת שמחזיקה את המערך החדש מתרגיל 24 ומפרידה בין האיברים במקף (-).
 
-function createStringAndKeepTheArray() {
-  let str = classStudents.join("-");
-  console.log(str);
-}
-createStringAndKeepTheArray();
+// function createStringAndKeepTheArray() {
+//   let str = classStudents.join("-");
+//   console.log(str);
+// }
+// createStringAndKeepTheArray();
 
 // 7.
 
