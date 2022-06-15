@@ -54,7 +54,7 @@ getNumbersAndSort([20, 14, 100, 3, 12, 67, 54, 3]);
 // createStringAndKeepTheArray();
 
 // 7.
-
+// NOT FINISH
 let arrayCompany = [
   "microsoft",
   "apple",
