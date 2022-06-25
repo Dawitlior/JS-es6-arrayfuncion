@@ -67,10 +67,13 @@ let arrayCompany = [
   "sony",
   "hwawi",
 ];
+
 function arrayTechCompany() {
   let divCompany = document.getElementById("id_div");
   for (let i = 0; i < arrayCompany.length; i++) {
-    divCompany.innerHTML = arrayCompany[i];
+    if (arrayCompany <= 10) {
+      divCompany.innerHTML = arrayCompany[i];
+    }
   }
 }
 
